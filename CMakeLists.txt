@@ -19,3 +19,8 @@ add_executable(nexstream-processor src/bootstrap/main.cpp src/infrastructure/kaf
 target_include_directories(nexstream-processor PRIVATE ${RDKAFKA_INCLUDE_DIR})
 target_compile_options(nexstream-processor PRIVATE -Wall -Wextra -Wpedantic)
 target_link_libraries(nexstream-processor PRIVATE nexstream_processor_core ${RDKAFKA_LIBRARY})
+if(BUILD_TESTING)
+add_executable(nexstream_processor_tests tests/processor_tests.cpp)
+target_link_libraries(nexstream_processor_tests PRIVATE nexstream_processor_core)
+add_test(NAME nexstream_processor_tests COMMAND nexstream_processor_tests)
+endif()
