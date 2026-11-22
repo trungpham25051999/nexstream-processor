@@ -1,0 +1,10 @@
+{
+  "malformed_records": 100,
+  "malformed_record_bytes": 60001,
+  "oversized_records": 20,
+  "oversized_record_bytes": 262159,
+  "baseline_rss_bytes": 10846208,
+  "peak_rss_bytes": 12619776,
+  "rss_growth_limit_bytes": 67108864,
+  "dlq_records": 120
+}

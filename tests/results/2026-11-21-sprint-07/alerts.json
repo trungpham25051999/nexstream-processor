@@ -1,0 +1,16 @@
+{
+  "topic": "telemetry.alerts.v1",
+  "key": "s07-host",
+  "value": "{\"alert_id\":\"s07-host:s07-m2:cpu\",\"consecutive_samples\":2,\"host_id\":\"s07-host\",\"message_id\":\"s07-m2\",\"metric\":\"cpu\",\"observed_percent\":96.0,\"sample_timestamp_ms\":1793650001000,\"schema_version\":1,\"threshold_percent\":80.0}",
+  "timestamp": 1793679033405,
+  "partition": 0,
+  "offset": 0
+}
+{
+  "topic": "telemetry.alerts.v1",
+  "key": "s07-host",
+  "value": "{\"alert_id\":\"s07-host:s07-m2:ram\",\"consecutive_samples\":2,\"host_id\":\"s07-host\",\"message_id\":\"s07-m2\",\"metric\":\"ram\",\"observed_percent\":91.0,\"sample_timestamp_ms\":1793650001000,\"schema_version\":1,\"threshold_percent\":80.0}",
+  "timestamp": 1793679034112,
+  "partition": 0,
+  "offset": 1
+}
