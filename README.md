@@ -1,5 +1,7 @@
 # nexstream-processor
 
+[![CI](https://github.com/trungpham25051999/nexstream-processor/actions/workflows/ci.yml/badge.svg)](https://github.com/trungpham25051999/nexstream-processor/actions/workflows/ci.yml) ![C++20](https://img.shields.io/badge/C%2B%2B-20-00599C?logo=cplusplus) ![Kafka](https://img.shields.io/badge/Kafka-consumer%20group-231F20?logo=apachekafka) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 C++20 Kafka telemetry analytics worker. Tested with librdkafka 2.0.2 and nlohmann JSON 3.11.2.
 
 Build: `cmake -S . -B build -DCMAKE_BUILD_TYPE=Debug -DRDKAFKA_ROOT=<prefix> -DJSON_INCLUDE_DIR=<include>`;
